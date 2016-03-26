@@ -24,5 +24,17 @@ namespace WpfTest
         {
             InitializeComponent();
         }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            Window1 window1 = new Window1();
+            window1.ShowDialog();
+        }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            Window2 window2 = new Window2();
+            window2.ShowDialog();
+        }
     }
 }

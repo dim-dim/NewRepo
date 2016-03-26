@@ -9,10 +9,11 @@
     <Grid>
         <Label x:Name="label" Content="Hello word" HorizontalAlignment="Left" Margin="84,71,0,0" VerticalAlignment="Top"/>
         <CheckBox x:Name="checkBox" Content="CheckBox" HorizontalAlignment="Left" Margin="96,182,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="120,178,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="button" Content="Show window 1" HorizontalAlignment="Left" Margin="180,288,0,0" VerticalAlignment="Top" Width="107" Click="button_Click"/>
         <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="120,225,0,0" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="309,145,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
         <RadioButton x:Name="radioButton" Content="RadioButton" HorizontalAlignment="Left" Margin="277,58,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="button1" Content="Show Window 2" HorizontalAlignment="Left" Margin="354,288,0,0" VerticalAlignment="Top" Width="117" Click="button1_Click"/>
 
     </Grid>
 </Window>
