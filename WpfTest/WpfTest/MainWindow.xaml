@@ -11,6 +11,8 @@
         <CheckBox x:Name="checkBox" Content="CheckBox" HorizontalAlignment="Left" Margin="96,182,0,0" VerticalAlignment="Top"/>
         <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="120,178,0,0" VerticalAlignment="Top" Width="75"/>
         <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="120,225,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="309,145,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <RadioButton x:Name="radioButton" Content="RadioButton" HorizontalAlignment="Left" Margin="277,58,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
